@@ -17,10 +17,8 @@ repository: alllesss/alllesss.github.io
 title: ALLLESSS
 email: alless0@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
+  Devlog for ModularX project.
+twitter_username: alllesss
 github_username: alllesss
 minimal_mistakes_skin: dark
 search: true
@@ -30,7 +28,7 @@ markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 7 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -61,7 +59,7 @@ plugins:
 author:
   name   : "Ali Eslami"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Devlog for ModularX project"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -99,7 +97,7 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"

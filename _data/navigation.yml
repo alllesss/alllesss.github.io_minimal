@@ -7,3 +7,23 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+
+
+# devlog:
+#   - title: "DEVLOG"
+#     children:
+#       - title: "2024-02-12 - Blog post 1"
+#         url: /devlog/post-01/
+#       - title: "2024-02-12 - Blog post 2"
+#         url: /devlog/post-02/
+#       - title: "2024-02-12 - Blog post 3"
+#         url: /devlog/post-03/
+#       - title: "2024-02-12 - Blog post 4"
+#         url: /devlog/post-04/
+
+  # - title: META
+  #   children:
+  #     - title: "Contact"
+  #       url: /about/contact/
+  #     - title: "References"
+  #       url: /about/references/
