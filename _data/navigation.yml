@@ -1,6 +1,6 @@
 main:
   - title: "Blog"
-    url: /blog/
+    url: /
   # - title: "Categories"
   #   url: /categories/
   # - title: "Tags"
@@ -8,20 +8,20 @@ main:
   - title: "About"
     url: /about/
     
-sidebar:
-  - title: "BLOG"
-    children:
-      - title: "2024-02-12 - Blog post 1"
-        url: /blog/post-01/
-      - title: "2024-02-12 - Blog post 2"
-        url: /blog/post-02/
-      - title: "2024-02-12 - Blog post 3"
-        url: /blog/post-03/
-      - title: "2024-02-12 - Blog post 4"
-        url: /blog/post-04/
-  - title: "META"
-    children:
-      - title: "Contact"
-        url: /about/contact/
-      - title: "References"
-        url: /about/references/
+# sidebar:
+#   - title: "BLOG"
+#     children:
+#       - title: "2024-02-12 - Blog post 1"
+#         url: /blog/post-01/
+#       - title: "2024-02-12 - Blog post 2"
+#         url: /blog/post-02/
+#       - title: "2024-02-12 - Blog post 3"
+#         url: /blog/post-03/
+#       - title: "2024-02-12 - Blog post 4"
+#         url: /blog/post-04/
+#   - title: "META"
+#     children:
+#       - title: "Contact"
+#         url: /about/contact/
+#       - title: "References"
+#         url: /about/references/
