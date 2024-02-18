@@ -7,6 +7,17 @@ tags:
   - notice
 ---
 
+
+{% capture fig_img %}
+![Module_Wall_Floor]({{ "/assets/images/01_HelloWorld/Module_Wall_Floor.jpg" }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Photo from Unsplash.</figcaption>
+</figure>
+
+
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
 
 When using Kramdown `{: .notice}` can be added after a sentence to assign the `.notice` to the `<p></p>` element. 

@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Ali Eslami"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Devlog for ModularX project"
+  bio    : "Devlog"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
